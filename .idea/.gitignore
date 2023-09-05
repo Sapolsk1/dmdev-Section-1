@@ -1,5 +1,6 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
+.out/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -8,7 +9,6 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.out/
 *.iws
 *.iml
 *.ipr
