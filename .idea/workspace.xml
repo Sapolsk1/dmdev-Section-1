@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44db36db-02b6-4433-80c8-11df96af83c4" name="Changes" comment="update gitignore">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task1/TimeZone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task2/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task2/Main.java" afterDir="false" />
+    <list default="true" id="44db36db-02b6-4433-80c8-11df96af83c4" name="Changes" comment="first homework - Task 1">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson10/Lesson10Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson10/Lesson10Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson3/ApplicationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson3/ApplicationRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson7/Lesson7Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson7/Lesson7Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson8/Lesson8Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson8/Lesson8Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson9/Lesson9Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson9/Lesson9Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task2/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task2/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +57,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/alfa&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Work/alfa",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.com.dmdev.cs.homework.task2.Main">
     <configuration name="Lesson10Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.lesson10.Lesson10Runner" />
@@ -178,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693946454365</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first homework - Task 1">
+      <created>1694357296632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357296632</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +210,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="some fix&#10;create dev branch" />
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="first homework - Task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first homework - Task 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

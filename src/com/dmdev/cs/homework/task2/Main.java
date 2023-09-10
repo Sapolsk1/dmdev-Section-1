@@ -1,5 +1,6 @@
 package com.dmdev.cs.homework.task2;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -20,11 +21,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        double d = 2.0;
+
+        Function function = new Function();
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);;
         System.out.println("First operand: ");
         double firstOperand = scanner.nextDouble();
         System.out.println("Second operand: ");
         double second = scanner.nextDouble();
+        System.out.println("Operation symbol: ");
+        char operation = scanner.next().charAt(0);
+        scanner.close();
+        function.getResult(firstOperand, second, operation);
 
     }
 }
