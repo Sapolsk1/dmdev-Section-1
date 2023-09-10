@@ -21,9 +21,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        double d = 2.0;
-
-        Function function = new Function();
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);;
         System.out.println("First operand: ");
         double firstOperand = scanner.nextDouble();
@@ -32,7 +29,7 @@ public class Main {
         System.out.println("Operation symbol: ");
         char operation = scanner.next().charAt(0);
         scanner.close();
-        function.getResult(firstOperand, second, operation);
+        Function.getResult(firstOperand, second, operation);
 
     }
 }

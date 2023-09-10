@@ -8,7 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input minute: ");
         int minutes = scanner.nextInt();
-        TimeZone timeZone = new TimeZone();
-        timeZone.getTimeZone(minutes);
+        TimeZone.getTimeZone(minutes);
     }
 }

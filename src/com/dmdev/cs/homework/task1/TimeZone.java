@@ -2,7 +2,7 @@ package com.dmdev.cs.homework.task1;
 
 public class TimeZone {
 
-    public void getTimeZone(int minutes) {
+    public static void getTimeZone(int minutes) {
         if (0 <= minutes && minutes <= 14) {
             System.out.println("Первая четверть");
         } else if (15 <= minutes && minutes <= 30) {
