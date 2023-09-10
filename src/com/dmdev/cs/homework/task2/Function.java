@@ -2,7 +2,7 @@ package com.dmdev.cs.homework.task2;
 
 public class Function {
 
-    public static void getResult(double first, double second, char symbol) {
+    public static void getResults(double first, double second, char symbol) {
         switch (symbol) {
             case '+' -> System.out.println(first + second);
             case '-' -> System.out.println(first - second);
@@ -15,7 +15,8 @@ public class Function {
                 }
             }
             case '%' -> System.out.println(first % second);
-            default -> System.out.println("Некорректная операция");
+            default -> System.out.println("Некорректная операция, " +
+                    "возможны лишь варианты операций: " + '+' + ", " + '-' + ", " + '*' + ", " + '/' + " или " + '%');
         }
     }
 }

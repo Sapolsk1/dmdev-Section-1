@@ -4,10 +4,16 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static final Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        getTimeZone();
+    }
+
+    private static void getTimeZone() {
         System.out.println("Input minute: ");
         int minutes = scanner.nextInt();
-        TimeZone.getTimeZone(minutes);
+        TimeZone.getTimeZones(minutes);
+        scanner.close();
     }
 }

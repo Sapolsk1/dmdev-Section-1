@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44db36db-02b6-4433-80c8-11df96af83c4" name="Changes" comment="first homework - Task 2">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task3/CompareSquareTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task3/SquareTriangle.java" afterDir="false" />
+    <list default="true" id="44db36db-02b6-4433-80c8-11df96af83c4" name="Changes" comment="first homework - Task 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task1/TimeZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/task1/TimeZone.java" afterDir="false" />
@@ -68,7 +65,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.dmdev.cs.homework.task3.Main">
+  <component name="RunManager" selected="Application.com.dmdev.cs.homework.task2.Main">
     <configuration name="Lesson10Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.lesson10.Lesson10Runner" />
       <module name="first-application" />
@@ -124,9 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.dmdev.cs.homework.task3.Main" />
         <item itemvalue="Application.com.dmdev.cs.homework.task2.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.dmdev.cs.homework.task3.Main" />
         <item itemvalue="Application.Lesson10Runner" />
         <item itemvalue="Application.Lesson9Runner" />
       </list>
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694358910731</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first homework - Task 3">
+      <created>1694366523588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694366523588</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +228,8 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="first homework - Task 1" />
     <MESSAGE value="first homework - Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="first homework - Task 2" />
+    <MESSAGE value="first homework - Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="first homework - Task 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
