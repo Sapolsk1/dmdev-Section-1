@@ -14,25 +14,25 @@ import java.util.Scanner;
  */
 
 public class Main {
-    private static final Scanner scanner = new Scanner(System.in);
+    private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
         CompareSquareTriangle.getCompare(getFirstSquare(), getSecondSquare());
-        scanner.close();
+        SCANNER.close();
     }
 
     private static double getFirstSquare() {
         System.out.println("Введите значение длины первого катета для первого треугольника:");
-        int firstValueFirstTriangle = scanner.nextInt();
+        int firstValueFirstTriangle = SCANNER.nextInt();
         System.out.println("Введите значение длины второго катета для первого треугольника:");
-        int secondValueFirstTriangle = scanner.nextInt();
+        int secondValueFirstTriangle = SCANNER.nextInt();
         return SquareTriangle.getSquare(firstValueFirstTriangle, secondValueFirstTriangle);
     }
     private static double getSecondSquare() {
         System.out.println("Введите значение длины второго катета для первого треугольника:");
-        int firstValueSecondTriangle = scanner.nextInt();
+        int firstValueSecondTriangle = SCANNER.nextInt();
         System.out.println("Введите значение длины второго катета для первого треугольника:");
-        int secondValueSecondTriangle = scanner.nextInt();
+        int secondValueSecondTriangle = SCANNER.nextInt();
         return SquareTriangle.getSquare(firstValueSecondTriangle, secondValueSecondTriangle);
     }
 }

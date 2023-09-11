@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static final Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+    private static final Scanner SCANNER = new Scanner(System.in).useLocale(Locale.US);
 
     public static void main(String[] args) {
         getResult();
@@ -28,12 +28,12 @@ public class Main {
 
     private static void getResult() {
         System.out.println("First operand: ");
-        double firstOperand = scanner.nextDouble();
+        double firstOperand = SCANNER.nextDouble();
         System.out.println("Second operand: ");
-        double second = scanner.nextDouble();
+        double second = SCANNER.nextDouble();
         System.out.println("Operation symbol: ");
-        char operation = scanner.next().charAt(0);
+        char operation = SCANNER.next().charAt(0);
         Function.getResults(firstOperand, second, operation);
-        scanner.close();
+        SCANNER.close();
     }
 }
