@@ -1,0 +1,59 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -2,14 +2,9 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="44db36db-02b6-4433-80c8-11df96af83c4" name="Changes" comment="update gitignore">
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2023_23_24_[Changes]/shelved.patch" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2023_23_24__Changes_.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson10/Lesson10Runner.class" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson3/ApplicationRunner.class" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson7/Lesson7Runner.class" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson8/Lesson8Runner.class" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/out/production/first-application/com/dmdev/cs/lesson9/Lesson9Runner.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/dmdev/cs/homework/TimeZone.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -62,6 +57,9 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "last_opened_file_path": "D:/Work/alfa",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
+     "settings.editor.selected.configurable": "preferences.keymap"
+   }
+ }]]></component>
+Index: src/com/dmdev/cs/homework/Main.java
+===================================================================
+diff --git a/src/com/dmdev/cs/homework/Main.java b/src/com/dmdev/cs/homework/Main.java
+new file mode 100644
+--- /dev/null	
++++ b/src/com/dmdev/cs/homework/Main.java	
+@@ -0,0 +1,16 @@
++package com.dmdev.cs.homework;
++
++/**
++ * В переменной minutes лежит число от 0 до 59.
++ * Написать функцию, которая принимает в качестве параметра значение переменной minutes и выводит на консоль
++ * в какую четверть часа попадает это число (в первую, вторую, третью или четвертую).
++
++ * Протестировать функцию в main.
++ */
++public class Main {
++
++    int minutes;
++    public static void main(String[] args) {
++
++    }
++}
