@@ -1,4 +1,4 @@
-package com.dmdev.cs.homework.task3;
+package com.dmdev.cs.homework1.task3;
 
 public class SquareTriangle {
 
