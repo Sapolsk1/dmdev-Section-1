@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
         char[] chars = {'a', '6', 'y', 'P', 'T', 'q', '9', '+'};
         int[] ints = new int[chars.length - 1];
+
         NumericArray.getNumericArray(chars, ints);
         System.out.println("AverageSum: " + AverageSum.getAverageSum(ints));
     }
