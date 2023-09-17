@@ -1,4 +1,4 @@
-package com.dmdev.cs.homework.task1;
+package com.dmdev.cs.homework1.task1;
 
 import java.util.Scanner;
 

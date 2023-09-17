@@ -1,4 +1,4 @@
-package com.dmdev.cs.homework.task2;
+package com.dmdev.cs.homework1.task2;
 
 import java.util.Locale;
 import java.util.Scanner;
