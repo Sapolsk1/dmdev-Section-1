@@ -92,39 +92,27 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.dmdev.cs.homework2.arrays.task2.Main">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.golovachcourses.procedural.loops.Fibonacci" />
+  <component name="RunManager" selected="Application.com.dmdev.cs.homework.task2.Main">
+    <configuration name="Lesson10Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.lesson10.Lesson10Runner" />
       <module name="first-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.golovachcourses.procedural.loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson1Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.golovachcourses.procedural.loops.Lesson1Runner" />
+    <configuration name="Lesson9Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.lesson9.Lesson9Runner" />
       <module name="first-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.golovachcourses.procedural.loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.homework2.arrays.task1.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.homework.task1.Main" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.cs.homework2.arrays.task1.*" />
+          <option name="PATTERN" value="com.dmdev.cs.homework.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.homework2.loop.task3.Second" />
+    <configuration name="com.dmdev.cs.homework.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.homework.task2.Main" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.cs.homework2.loop.task3.*" />
+          <option name="PATTERN" value="com.dmdev.cs.homework.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.cs.homework2.arrays.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.homework2.arrays.task2.Main" />
+    <configuration name="com.dmdev.cs.homework.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.cs.homework.task3.Main" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.cs.homework2.arrays.task2.*" />
+          <option name="PATTERN" value="com.dmdev.cs.homework.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
