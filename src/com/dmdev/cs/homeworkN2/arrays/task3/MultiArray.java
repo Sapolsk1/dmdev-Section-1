@@ -4,6 +4,7 @@ import com.dmdev.cs.homeworkN2.arrays.task3.arrays.NegativeArray;
 import com.dmdev.cs.homeworkN2.arrays.task3.arrays.PositiveArray;
 import com.dmdev.cs.homeworkN2.arrays.task3.arrays.ZeroArray;
 import com.dmdev.cs.homeworkN2.arrays.task3.counter.NegativeCounter;
+import com.dmdev.cs.homeworkN2.arrays.task3.counter.NumberCounter;
 import com.dmdev.cs.homeworkN2.arrays.task3.counter.PositiveCounter;
 import com.dmdev.cs.homeworkN2.arrays.task3.counter.ZeroCounter;
 
@@ -13,9 +14,9 @@ import java.util.Arrays;
 public class MultiArray {
 
     public static void getMultiArray() {
-        NegativeCounter negativeCounter = new NegativeCounter();
-        PositiveCounter positiveCounter = new PositiveCounter();
-        ZeroCounter zeroCounter = new ZeroCounter();
+        NumberCounter negativeCounter = new NegativeCounter();
+        NumberCounter positiveCounter = new PositiveCounter();
+        NumberCounter zeroCounter = new ZeroCounter();
         int negativeCount = negativeCounter.getCount(MainTask3.arr);
         int zeroCount = zeroCounter.getCount(MainTask3.arr);
         int positiveCount = positiveCounter.getCount(MainTask3.arr);

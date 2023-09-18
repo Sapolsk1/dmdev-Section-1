@@ -13,34 +13,13 @@ package com.dmdev.cs.homeworkN2.loop.task3;
 
 public class Main {
 
-    private static final double PERCENT = 0.12;
-
     public static void main(String[] args) {
         double salary = 600;
-        int time = 7;
-        double salaryPlus = 400;
-        double expense = 1800;
-        double percentToBroker = 0.1;
-        double result = calculate(salary, time, salaryPlus, expense, percentToBroker);
-        System.out.println(result);
-//        System.out.println(600 * 6 + 1000 * 6 + 1400 * 6 + 1800 * 6 + 2200 * 6 + 2600 * 6);
-
+        int time = 42;
+        double brokerResult = BrokerSum.calculateBrokerSum(salary, time);
+        double balanceResult = Balance.calculateBalance(salary, time);
+        System.out.println("Счет брокера: " + brokerResult + "\nСчет Ивана: " + balanceResult);
     }
 
-    private static double calculate(double salary, int time, double salaryUp, double expense, double percentToBroker) {
-        double result = 1800;
-        double brokerAccount = 0;
-        for (int currentTime = 2; currentTime < time; currentTime++) {
 
-            salary = salary + salaryUp;
-            double y = result + (salary * 6);
-//            System.out.println(y);
-            double i = y - expense;
-//            System.out.println(i);
-            result = i * (percentToBroker * 6);
-            brokerAccount += result * PERCENT;
-        }
-        System.out.println(result);
-        return brokerAccount;
-    }
 }

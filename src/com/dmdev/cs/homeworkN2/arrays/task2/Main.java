@@ -1,5 +1,7 @@
 package com.dmdev.cs.homeworkN2.arrays.task2;
 
+import java.util.Arrays;
+
 /**
  * Дан одномерный массив символов.
  * Преобразовать его в одномерный массив чисел, где число - это код символа (любой символ - это число в памяти компьютера).
@@ -12,8 +14,9 @@ public class Main {
     public static void main(String[] args) {
         char[] chars = {'a', '6', 'y', 'P', 'T', 'q', '9', '+'};
         int[] ints = new int[chars.length - 1];
-
-        NumericArray.getNumericArray(chars, ints);
-        System.out.println("AverageSum: " + AverageSum.getAverageSum(ints));
+        int[] numericArray = NumericArray.getNumericArray(chars, ints);
+        int averageSum = AverageSum.getAverageSum(ints);
+        System.out.println(Arrays.toString(numericArray));
+        Compare.compareNumbers(ints, averageSum);
     }
 }

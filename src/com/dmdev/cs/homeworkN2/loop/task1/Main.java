@@ -16,7 +16,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Введите число: ");
         int value = SCANNER.nextInt();
-        CountEven.getEven(value);
-        CountOdd.getOdd(value);
+        int even = CountEven.getEven(value);
+        int odd = CountOdd.getOdd(value);
+        System.out.println("Четные: " + even + "\nНечетные: " + odd);
     }
 }

@@ -18,6 +18,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Введите целое число: ");
         int value = SCANNER.nextInt();
-        InvertMethod.invertValue(value);
+        int result = InvertMethod.invertValue(value);
+        System.out.println("Инвертированное число: " + result);
     }
 }
