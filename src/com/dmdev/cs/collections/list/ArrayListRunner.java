@@ -1,4 +1,4 @@
-package com.dmdev.cs.lesson19;
+package com.dmdev.cs.collections.list;
 
 import java.util.ArrayList;
 import java.util.List;
