@@ -1,4 +1,4 @@
-package com.golovachcourses.generics;
+package com.additionalcourses.generics;
 
 public class ArrayIsCovariant {
 

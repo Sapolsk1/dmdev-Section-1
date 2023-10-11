@@ -1,4 +1,4 @@
-package com.golovachcourses.procedural.recursion;
+package com.additionalcourses.procedural.recursion;
 
 public class Fibonacci {
 

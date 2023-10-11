@@ -1,4 +1,4 @@
-package com.golovachcourses.procedural.loops;
+package com.additionalcourses.procedural.loops;
 
 import java.util.Arrays;
 
